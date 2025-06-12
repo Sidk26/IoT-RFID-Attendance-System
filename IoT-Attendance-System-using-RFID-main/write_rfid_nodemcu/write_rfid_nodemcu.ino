@@ -10,9 +10,9 @@ MFRC522::MIFARE_Key key;
 /* Set the block to which we want to write data */
 /* Be aware of Sector Trailer Blocks */
 int blockNum = 2;  
-/* Create an array of 16 Bytes and fill it with data */
+/* Create an array of 13 Bytes and fill it with data */
 /* This is the actual data which is going to be written into the card */
-byte blockData [16] = {"Himanshu_Sharma"};
+byte blockData [13] = {"Sidrah_Khatib"};
 
 /* Create another array to read data from Block */
 /* Legthn of buffer should be 2 Bytes more than the size of Block (16 Bytes) */
